@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Blog</h1>
+    </header>
+    <div class="main-div">
+        <div class="left-content-div">
+            <img src="./assets/images/my-first-blog-circle.png">
+        </div>
+        <div class="right-content-div">
+            <div class="form-div">
+                <form>
+                    <h2>What's on your mind?</h2>
+                    <p>
+                        <label for="username">
+                          <span>Username: </span>
+                          <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" id="username" name="username" required />
+                    </p>
+                    <p>
+                        <label for="title">
+                          <span>Title: </span>
+                          <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <input type="text" id="title" name="title" required />
+                    </p> 
+                    <p>
+                        <label for="content">
+                          <span>Content: </span>
+                          <strong><span aria-label="required">*</span></strong>
+                        </label>
+                        <textarea rows="5" cols="33" id="content" name="content" required></textarea>
+                    </p>
+                    <!-- <a href="./blog.html"> -->
+                    <input type="submit" value="Submit" id="submit">
+                    <!-- </a> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/form.js"></script>
+</body>
+</html>
