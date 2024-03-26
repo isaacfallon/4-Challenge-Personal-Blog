@@ -3,6 +3,8 @@ const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
 const submitButton = document.querySelector('#submit');
 
+const blogPageButton = document.querySelector('#blogPageButton');
+
 let array = [];
 
 let userObject = [
@@ -52,3 +54,7 @@ submitButton.addEventListener('click', function (event) {
     }
  
   );
+
+  blogPageButton.addEventListener('click', function() {
+    window.location.href="./blog.html";
+  });

@@ -1,7 +1,5 @@
 const blogContainer = document.querySelector('#blog-container');
 const backButton = document.querySelector('#back-button');
-const clearButton = document.querySelector('#clear-storage');
-
 
 window.addEventListener('load', function (event) {
   event.preventDefault();
@@ -41,9 +39,4 @@ localStorage.setItem('blogEntry', JSON.stringify(blogParse));
 
 backButton.addEventListener('click', function() {
   window.location.href="./index.html";
-});
-
-clearButton.addEventListener('click', function() {
-  localStorage.clear();
-  location.reload();
 });
