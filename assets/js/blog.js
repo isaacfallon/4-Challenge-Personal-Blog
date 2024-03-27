@@ -17,21 +17,24 @@ window.addEventListener('load', function (event) {
     const ul = document.createElement('ul');
 
     const li = document.createElement('li');
-    li.textContent = item.title;
+    li.textContent = 'Posted by: ' + item.title;
     li.setAttribute('data-index', i);
+
+    const hr = document.createElement('hr');
 
     const li2 = document.createElement('li');
     li2.textContent = item.content;
     li2.setAttribute('data-index', i);
 
-    const li3 = document.createElement('li');
+    const li3 = document.createElement('p');
     li3.textContent = item.user;
     li3.setAttribute('data-index', i);
 
     blogContainer.appendChild(ul);
-    ul.appendChild(li);
     ul.appendChild(li2);
+    ul.appendChild(hr);
     ul.appendChild(li3);
+    ul.appendChild(li);
 }
 localStorage.setItem('blogEntry', JSON.stringify(blogParse));
  
