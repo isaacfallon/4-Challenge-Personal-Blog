@@ -9,12 +9,15 @@
 </head>
 <body>
     <header>
-        <h1>Blog entries</h1>
+        <div class="heading-container">
+            <h1>Blog Entries</h1>
+        </div>
 
-        <button id="back-button">Go back to form entry</button>
-        <button id="clear-storage">Clear local storage and refresh page</button>
-
+        <div class="button-container">
+        <!-- <button id="clear-storage">Clear local storage and refresh page</button> -->
         <button id="toggleButton">Toggle dark/light mode</button>
+        <button id="back-button">&larr; Go back to form entry</button>
+        </div>
     </header>
 
   <div id="blog-container">
@@ -22,10 +25,12 @@
 
 
 
-    <!-- <footer>
-        <p>Portfolio page</p>
+<footer>
+        <a href="https://isaacfallon.github.io/2-Challenge-Professional-Portfolio/" target="_blank">
+        <p>Check out my porfolio to see my other work!</p>
+        </a>
         <p>2024 &copy; Isaac Fallon</p>
-    </footer> -->
+    </footer>
 
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/blog.js"></script>

@@ -1,18 +1,18 @@
-header {
-    height: 14vh;
-    border-bottom: black 1vh solid;
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-weight: bold;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    height: 10vh;
-    align-items: center;
-    background-color: green;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+.dark-mode footer {
+  background-color: rgb(85, 85, 85);
+}
   
   footer p {
     margin-right: 2em;
@@ -21,10 +21,29 @@ footer {
 
   #blog-container {
     padding: 2em;
+    padding-bottom: 4em;
   }
 
 ul {
   border: 5px black solid;
   padding: 1em;
   margin: 1em 0;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+ul p {
+  margin: 0.5em;
+  padding-bottom: 0.5em;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: black 6px solid;
+  /* height: 14vh; */
 }

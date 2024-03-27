@@ -43,6 +43,10 @@ function storeEntries() {
 submitButton.addEventListener('click', function (event) {
     event.preventDefault();
 
+    if (titleInput.value === '' || contentInput.value === '' || usernameInput.value === '') {
+      alert ('Please enter all fields before submitting');
+    } else {
+
     array.push({
       title: usernameInput.value,
       content: titleInput.value,
@@ -52,7 +56,7 @@ submitButton.addEventListener('click', function (event) {
     storeEntries();
     window.location.href="./blog.html"
     }
- 
+  }
   );
 
   blogPageButton.addEventListener('click', function() {

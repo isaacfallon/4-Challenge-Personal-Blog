@@ -11,3 +11,8 @@ clearButton.addEventListener('click', function() {
     localStorage.clear();
     location.reload();
   });
+
+  window.addEventListener('load', function (event) {
+    event.preventDefault();
+
+});
