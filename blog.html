@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog - Blog Entries</title>
+    <title>Personal Blog - List of Entries</title>
+    <!-- CSS stylesheets linked. -->
     <link rel="stylesheet" href="./assets/css/blog.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <header>
+        <!-- A div container for the heading elements on the left. -->
         <div class="heading-container">
             <h1>Blog Entries</h1>
         </div>
-
+        <!-- A div container for the button elements on the right. -->
         <div class="button-container">
-        <!-- <button id="clear-storage">Clear local storage and refresh page</button> -->
         <button id="toggleButton">Toggle dark/light mode</button>
         <button id="back-button">&larr; Go back to form entry</button>
         </div>
     </header>
 
+    <!-- A div container for the blog elements to then be appended to when the user inputs their blog entry. -->
   <div id="blog-container">
   </div>
 
-
-
+  <!-- Footer with a link to my portfolio page, name and copyright symbol. -->
 <footer>
         <a href="https://isaacfallon.github.io/2-Challenge-Professional-Portfolio/" target="_blank">
         <p>Check out my porfolio to see my other work!</p>
         </a>
         <p>2024 &copy; Isaac Fallon</p>
     </footer>
-
+    <!-- Javascript scrips linked. -->
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/blog.js"></script>
 </body>

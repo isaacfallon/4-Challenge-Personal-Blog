@@ -1,24 +1,22 @@
-footer {
+/* Styles for the blog entries part of the website. */
+
+/* A separate header element is used here as the heading is slightly different with buttons. */
+header {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: lightgray;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  font-weight: bold;
+  justify-content: center;
+  border-bottom: black 6px solid;
 }
 
-.dark-mode footer {
-  background-color: rgb(85, 85, 85);
-}
-  
-  footer p {
-    margin-right: 2em;
-    font-size: 1em;
+/* A button container is used toe ensure the buttons position correctly in the website's header. */
+.button-container {
+  display: flex;
+  align-items: center;
+  padding-right: 3.5em;
+  font-size: 3em;
   }
 
+/* Below are the styles for the actual blog entries that are added as appended list 
+and paragraph elements within an unordered list via Javascript. */
   #blog-container {
     padding: 2em;
     padding-bottom: 4em;
@@ -41,9 +39,20 @@ ul p {
   font-style: italic;
 }
 
-header {
+/* Footer styles listed here as they are only required on the blog entry page. */
+footer {
   display: flex;
-  justify-content: center;
-  border-bottom: black 6px solid;
-  /* height: 14vh; */
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-weight: bold;
+}
+
+footer p {
+  margin-right: 2em;
+  font-size: 1em;
 }
