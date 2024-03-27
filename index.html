@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog - Landing Page</title>
+    <title>Personal Blog - Entry Form</title>
+    <!-- CSS Stylesheets linked. -->
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+        <!-- Project heading at top of the page. -->
     <header>
         <div class="heading-container">
             <h1>Personal Blog</h1>
             <h2>By Isaac Fallon</h2>
         </div>
-        <!-- <div class="button-container"> -->
-            <!-- <button id="clear-storage">Clear local storage and refresh page</button> -->
-            <!-- <button id="toggleButton">Toggle dark/light mode</button> -->
-        <!-- </div>  -->
     </header>
+      <!-- Main div container to house all other content under the header. -->
     <div class="main-div">
+        <!-- Left content div container to house the image element. -->
         <div class="left-content-div">
             <img src="./assets/images/My-first-blog-circle-image.png">
         </div>
+        <!-- Right content div container to house the form. -->
         <div class="right-content-div">
+            <!-- Form entry asking the user to input their username, title and content. -->
             <div class="form-div">
                 <form>
                     <h2>What's on your mind?</h2>
@@ -47,14 +49,12 @@
                         </label>
                         <textarea rows="5" cols="33" id="content" name="content" required></textarea>
                     </p>
-
                     <input type="submit" value="Submit" id="submit">
-
                 </form>
             </div>
         </div>
     </div>
-
+    <!-- Javascript scrips linked. -->
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
 </body>

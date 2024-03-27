@@ -1,33 +1,28 @@
+/* The CSS styles here are universal across both pages. */
+
 * {
     margin: 0;
     padding: 0;
-    
   }
 
-body {
+  body {
     position: relative;
     font-family: Lato, Arial, Helvetica, sans-serif;
+    /* These two styles for the body ensure the footer remains at the bottom of the screen 
+    - even when scrolling is required when lots of blog entries are added. */
     position: relative;
     min-height: 100vh;
-    height: 100%;
   }
 
-  a {
-    color: black;
+a {
+   color: black;
   }
 
-  a:hover {
-    color: rgb(85, 85, 85);
+a:hover {
+  color: rgb(85, 85, 85);
   }
 
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-
-
-  .heading-container {
+.heading-container {
     padding-left: 4em;
     padding-right: 4em;
     font-size: 2em;
@@ -35,17 +30,36 @@ body {
     text-align: center;
   }
 
-  .heading-container h2 {
-    font-size: 1em;
-    text-align: center;
+.heading-container h2 {
+  font-size: 1em;
+  text-align: center;
+  }
+
+  /* Styles for all buttons on the website. 
+  I took inspiration from a W3 schools guide for these - see my README.MD file for further details.*/
+button {
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  padding: 0.75em;
+  text-align: center;
+  font-size: 0.35em;
+  cursor: pointer;
+  border-radius: 0.75em;
+  margin: 0.5em;
+  }
+  
+button:hover {
+  background-color: black;
+  color: white;
   }
 
 
-  .button-container {
-    display: flex;
-    align-items: center;
-    padding-right: 3.5em;
-    font-size: 3em;
+/* Below are all the dark mode styles that are called when the 'toggle dark/light' button is pressed. 
+Pressing the button again will revert all elements back to their originally set styles. */
+  .dark-mode {
+    background-color: black;
+    color: white;
   }
 
   .dark-mode ul {
@@ -82,20 +96,6 @@ body {
   color: lightgrey;
 }
 
-
-button {
-  background-color: lightgrey;
-  border: none;
-  color: black;
-  padding: 0.75em;
-  text-align: center;
-  font-size: 0.35em;
-  cursor: pointer;
-  border-radius: 0.75em;
-  margin: 0.5em;
-}
-
-button:hover {
-  background-color: black;
-  color: white;
+.dark-mode footer {
+  background-color: rgb(85, 85, 85);
 }

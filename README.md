@@ -2,12 +2,24 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project is a personal blog application built using HTML, CSS and Javascript. It serves as the week 4 challenge for the University of Sydney's Coding Bootcamp.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### Screenshot of deployed application (Blog form entry page):
+
+![Screenshot of deployed application showing blog form page.](./assets/images/IF-Challenge-4_Blog-Form.png)
+
+### Screenshot of deployed application (Blog entries page - light mode):
+
+![Screenshot of deployed application showing blog entries page in light mode.](./assets/images/IF-Challenge-4_Blog-Entries(Light).png)
+
+### Screenshot of deployed application (Blog entries page - dark mode):
+
+![Screenshot of deployed application showing blog entries page in light mode.](./assets/images/IF-Challenge-4_Blog-Entries(Dark).png)
+
+- My motivation to complete this project was so that I could have a way to input blog entries and keep them in local storage. 
+- I build this project so I could have a more elegant way of tracking blog entries.
+- This app solves the problem of not having a way to easily save blog entries online. 
+- By completing this challenge, I learned a lot about how local storage works and how powerful it can be as a tool; whether that's storing complex data or just making the user's life easier by saving some inputs. 
 
 ## Usage
 
@@ -18,11 +30,7 @@ Alternatively, you can also clone the repository and run the project locally. [R
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+For the buttons used in my project, I took inspiration from the [W3 Schools CSS Button styling guide.](https://www.w3schools.com/css/css3_buttons.asp) While I took their code as inspiration, I changed it up enough that I'm confident it's my own work.
 
 ## License
 

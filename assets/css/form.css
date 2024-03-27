@@ -1,9 +1,10 @@
+/* Styles for the form elements for the website.
+Everything is pretty standard here. 
+The only thing probably worth mentioning is the use of flex throughout 
+all container elements to ensure everything sits correctly in place. */
+
 .main-div {
     display: flex;
-    /* padding-left: 2em; */
-    /* padding-right: 2em; */
-    /* height: 100%; */
-    /* background-color: red; */
     height: 85vh;
 }
 
@@ -13,8 +14,6 @@
     align-items: center;
     justify-content: center;
     border-right: black 2px solid;
-
-
 }
 
 .right-content-div {
@@ -27,9 +26,6 @@
 }
 
 .form-div {
-    /* background-color: cyan; */
-    /* height: 75%; */
-    /* width: 75%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,8 +40,7 @@ label span {
     text-align: right;
   }
 
-  input,
-textarea {
+  input, textarea {
   font: 1em sans-serif;
   width: 100%;
   box-sizing: border-box;
