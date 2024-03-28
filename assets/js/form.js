@@ -20,6 +20,9 @@ let userObject = [
 
 // Load all existing blog entries, assign them to a variable and flatten them to a string. 
 let existingBlogs = JSON.parse(localStorage.getItem('blogEntry'));
+// PLEASE NOTE: this passes an error in the console log if there are no existing blog entries to pull from 
+// (clearing of local storage + like on a fresh page load) as it reads the 'length' as null which is normal. 
+// This means that there is no issue and should be ignored. As soon as a blog entry is added, the error goes away as expected.
 
 // On page load, prevent default behaviour and loop through the existing blogs saved in local storage to then be added to the array.
 window.addEventListener('load', function (event) {
@@ -27,6 +30,7 @@ window.addEventListener('load', function (event) {
 
   // Loop through all existing blog entries stored in local storage and push them to the array. 
 for(let i = 0; i < existingBlogs.length; i++) {
+
 
   const item = existingBlogs[i];
 

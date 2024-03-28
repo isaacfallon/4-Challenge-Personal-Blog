@@ -7,7 +7,7 @@ header {
   border-bottom: black 6px solid;
 }
 
-/* A button container is used toe ensure the buttons position correctly in the website's header. */
+/* A button container is used to ensure the buttons position correctly in the website's header. */
 .button-container {
   display: flex;
   align-items: center;

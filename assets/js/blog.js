@@ -6,7 +6,7 @@ const backButton = document.querySelector('#back-button');
 const toggleButton = document.getElementById('toggleButton');
 
 
-// On page load, prevent default bevaviour then load all existing blog entries, assign them to a variable and flatten them to a string. 
+// On page load, prevent default behaviour then load all existing blog entries, assign them to a variable and flatten them to a string. 
 window.addEventListener('load', function (event) {
   event.preventDefault();
   
@@ -17,7 +17,7 @@ window.addEventListener('load', function (event) {
 
     const item = blogParse[i];
 
-    //Then, we assign each existing blog item to it's own variable to then be appended to it's own HTML element.
+    //Then, we assign each existing blog item to its own variable to then be appended to its own HTML element.
     const ul = document.createElement('ul');
 
     const li = document.createElement('li');
