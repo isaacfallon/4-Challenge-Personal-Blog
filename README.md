@@ -14,10 +14,10 @@ This project is a personal blog application built using HTML, CSS and Javascript
 
 ### Screenshot of deployed application (Blog entries page - dark mode):
 
-![Screenshot of deployed application showing blog entries page in light mode.](./assets/images/IF-Challenge-4_Blog-Entries(Dark).png)
+![Screenshot of deployed application showing blog entries page in dark mode.](./assets/images/IF-Challenge-4_Blog-Entries(Dark).png)
 
 - My motivation to complete this project was so that I could have a way to input blog entries and keep them in local storage. 
-- I build this project so I could have a more elegant way of tracking blog entries.
+- I built this project so I could have a more elegant way of storing and tracking blog entries.
 - This app solves the problem of not having a way to easily save blog entries online. 
 - By completing this challenge, I learned a lot about how local storage works and how powerful it can be as a tool; whether that's storing complex data or just making the user's life easier by saving some inputs. 
 
@@ -30,7 +30,7 @@ Alternatively, you can also clone the repository and run the project locally. [R
 
 ## Credits
 
-For the buttons used in my project, I took inspiration from the [W3 Schools CSS Button styling guide.](https://www.w3schools.com/css/css3_buttons.asp) While I took their code as inspiration, I changed it up enough that I'm confident it's my own work.
+For the buttons used in my project, I took inspiration from the [W3Schools CSS Button styling guide.](https://www.w3schools.com/css/css3_buttons.asp) While I took their code as inspiration, I altered it enough that I'm confident it's my own work.
 
 ## License
 
